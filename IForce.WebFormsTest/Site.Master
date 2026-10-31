@@ -17,6 +17,7 @@
                     <a class="navbar-brand fw-semibold" href="Default.aspx">IForce Web Forms Test</a>
                     <div class="navbar-nav ms-auto">
                         <a class="nav-link active" href="Default.aspx">Reverse Text</a>
+                        <a class="nav-link" href="Products.aspx">Products</a>
                     </div>
                 </div>
             </nav>

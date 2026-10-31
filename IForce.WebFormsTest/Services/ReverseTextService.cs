@@ -1,10 +1,10 @@
 namespace IForce.WebFormsTest.Services
 {
-    public sealed class ReverseTextService
+    public class ReverseTextService
     {
         public string Reverse(string text)
         {
-            string value = text ?? "";
+            var value = text ?? "";
             return Reverse(value, value.Length - 1);
         }
 

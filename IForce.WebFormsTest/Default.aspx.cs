@@ -7,8 +7,8 @@ namespace IForce.WebFormsTest
     {
         protected void GoButton_Click(object sender, EventArgs e)
         {
-            string input = InputTextBox.Text ?? "";
-            string encodedInput = Server.UrlEncode(input);
+            var input = InputTextBox.Text ?? "";
+            var encodedInput = Server.UrlEncode(input);
 
             Response.Redirect("Result.aspx?text=" + encodedInput, false);
             Context.ApplicationInstance.CompleteRequest();

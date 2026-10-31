@@ -9,7 +9,7 @@ namespace IForce.WebFormsTest
         {
             if (!IsPostBack)
             {
-                string input = Request.QueryString["text"] ?? "";
+                var input = Request.QueryString["text"] ?? "";
                 ReversedTextLiteral.Text = new ReverseTextService().Reverse(input);
             }
         }
